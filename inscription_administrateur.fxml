@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Inscri_administrateurController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="350.0" style="-fx-background-color: #034f#3F729B84;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="54.0" layoutY="109.0" text="Bienvenue !" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font></Label>
+            <Label layoutX="20.0" layoutY="186.0" prefHeight="80.0" prefWidth="294.0" text="Votre compte a été" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="247.0" prefHeight="80.0" prefWidth="294.0" text=" bien enregistré" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="76.0" fitWidth="73.0" layoutX="139.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-utilisateur-50%20(2).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane opacity="0.83" prefHeight="400.0" prefWidth="714.0" style="-fx-border-color: #187dac;" styleClass="root" stylesheets="@login.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Home_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btn_home" prefHeight="0.0" prefWidth="8.0" stylesheets="@btn_menu_hover.css">
+               <graphic>
+                  <ImageView fitHeight="41.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@318183721_1346929282728945_1122290185977773052_n.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn_inscription" layoutX="161.0" layoutY="23.0" mnemonicParsing="false" onAction="#handle_btn_inscription" text="inscription" />
+            
+            <Button fx:id="btn_connection" layoutX="161.0" layoutY="23.0" mnemonicParsing="false" onAction="#btn_se_connecter" stylesheets="@btn_menu_hover.css" text="Connecter" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="398.0" prefWidth="600.0" style="-fx-background-color: #c2d4dd;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Formulaire_testController">
+   <children>
+      <Pane prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #36486b;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #034f#3F729B84;" text="Poster un TEST" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Unicode MS" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="508.0" layoutY="-1.0" opacity="0.56" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@318566984_457969413161288_4349283664314774234_n.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="page_precedente" layoutX="29.0" layoutY="14.0" mnemonicParsing="false" onAction="#on_page_precedente" text="Page précedente" />
+         </children>
+      </Pane>
+      <Label layoutX="47.0" layoutY="125.0" prefHeight="34.0" prefWidth="92.0" text="Cours" textFill="#181686">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="182.0" prefHeight="34.0" prefWidth="92.0" text="Fichier" textFill="#181686">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="form_cours" layoutX="151.0" layoutY="130.0" onAction="#on_btn_poster_test" promptText="Cours" />
+      <TextField fx:id="form_fichier" layoutX="151.0" layoutY="186.0" onAction="#on_btn_poster_test" promptText="Fichier" />
+      <Button fx:id="poster" layoutX="384.0" layoutY="262.0" mnemonicParsing="false" onAction="#on_btn_poster_test" prefHeight="42.0" prefWidth="82.0" text="Poster" />
+      <Button fx:id="btn_importer_file" layoutX="321.0" layoutY="186.0" mnemonicParsing="false" onAction="#on_textfield_file" text="importer" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Inscription_enseignantController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="357.0" style="-fx-background-color: #034f#3F729B84;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="45.0" layoutY="151.0" text="Matiere" textFill="WHITE" />
+            <Label layoutX="44.0" layoutY="192.0" text="Etablissement" textFill="WHITE" />
+            <TextField fx:id="matiere" layoutX="139.0" layoutY="147.0" promptText="Matiere" />
+            <TextField fx:id="etablissement" layoutX="140.0" layoutY="188.0" promptText="Etablissement" />
+            <ImageView fitHeight="76.0" fitWidth="73.0" layoutX="143.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-utilisateur-50%20(2).png" />
+               </image>
+            </ImageView>
+            <Button fx:id="inscription" layoutX="237.0" layoutY="306.0" mnemonicParsing="false" onAction="#on_valider" stylesheets="@btn_menu_hover.css" text="s'inscrire" />
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane opacity="0.83" prefHeight="400.0" prefWidth="242.0" style="-fx-border-color: #187dac;" styleClass="root" stylesheets="@login.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Home" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#btn_home" prefHeight="18.0" prefWidth="30.0" stylesheets="@btn_menu_hover.css">
+               <graphic>
+                  <ImageView fx:id="Home" fitHeight="41.0" fitWidth="35.0" onDragDetected="#btn_home" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@318183721_1346929282728945_1122290185977773052_n.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

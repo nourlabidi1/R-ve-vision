@@ -1,0 +1,28 @@
+.button {
+  -fx-font-weight: bold;
+  -fx-background-color:  #034f#3F729B84;
+  -fx-background-radius: 22;
+  -fx-font-size: 12;
+  -fx-text-fill: white;
+}
+
+.button:hover {
+  -fx-font-weight: bold;
+  -fx-background-color: white;
+  -fx-background-radius: 22;
+  -fx-font-size: 15;
+  -fx-text-fill: #034f#3F729B84;
+  -fx-border-color: #034f#3F729B84;
+  -fx-border-radius: 20;
+  -fx-border-width: 3;
+}
+
+.button:hover {
+  -fx-font-weight: bold;
+  -fx-background-color: white;
+  -fx-background-radius: 22;
+  -fx-font-size: 15;
+  -fx-text-fill: #034f#3F729B84;
+  -fx-border-color: #034f#3F729B84;
+  -fx-border-radius: 20;
+}

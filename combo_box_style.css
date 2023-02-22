@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 déc. 2022, 21:39:00
+    Author     : Majdi Khalil
+*/
+
+.combo-box
+{
+    -fx-border-width: 0.5px;
+    -fx-border-color: #ACACAC;
+    -fx-border-radius: 50px;
+    -fx-font-size: 12px;
+    -fx-padding: 0px;
+    -fx-font-weight: 100;
+    -fx-font-family: 'Regular';
+     -fx-background-radius: 50px;
+}
+
+.combo-box:hover{
+    -fx-text-fill: white;
+}
+
+.combo-box-base:hover{
+    -fx-border-color: green;
+}
+
+.combo-box .list-view{
+    -fx-border-width: 0.5px;
+    -fx-border-color: #ACACAC;
+    -fx-background-color: white;
+    -fx-padding: 0px;
+    -fx-font-weight: 100;
+    -fx-border-radius: 10px 10px 0px 10px;
+    -fx-background-radius: 10px 10px 0px 10px;
+
+}
+
+.combo-box .list-view .list-ce:filled{
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-font-weight: 100;
+}

@@ -1,0 +1,15 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 déc. 2022, 22:05:45
+    Author     : Majdi Khalil
+*/
+
+.button:hover {
+  -fx-font-weight: bold;
+  -fx-background-color: rgb(28, 94, 116) #3f729b84 !important ;
+  -fx-font-size: 15;
+  -fx-text-fill: rgb(255, 255, 255) #3f729b84;
+}
